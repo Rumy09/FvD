@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Tour sweater pagina  
-  <img src="readme-images/officialtherose.store_products_pre-orderglobal-the-rose-once-upon-a-wrld-tour-black-hoodie(iPhone SE)" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/officialtherose.store_products_pre-orderglobal-the-rose-once-upon-a-wrld-tour-black-hoodie(iPhone SE).png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
