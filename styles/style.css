@@ -18,6 +18,7 @@
 
 :root {
 	--color-text:#ffffff;
+  --color-textt: #321E1D;
 	--color-background:#FAF4F1;
 	--font-body: "Helvetica Neue", Arial, sans-serif; 
 }
@@ -47,13 +48,13 @@ header {
 
 .scroll-content {
     display: flex;
-    gap: 5%;
+    
 }
 
   .item { 
       height: auto;
-      width: 15em;
-      margin-right: 5%; 
+      width: 20em;
+      margin-right: 2%; 
       justify-content: center;
       align-items: center;
     }
@@ -79,3 +80,164 @@ footer {
   color: var(--color-text);
   padding-top: 5rem;
 }
+
+.landing{ width: 100%; 
+  min-height: 50vh; 
+  display: flex; 
+  align-items: center; 
+  gap: 2rem; 
+  padding: clamp(1rem, 4vw, 3rem); 
+  background: #faf2ee; } 
+  
+  .links, .rechts{ 
+    flex: 1 1 0; 
+    min-width: 0; 
+    background: transparent; } 
+    
+  .links{ 
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow-x: scroll;
+   } 
+    
+  .links img{ 
+    max-width: 100%; 
+    max-height: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: contain; } 
+    
+  .rechts{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 1rem; } 
+
+    .buttons{
+      display: flex;
+      gap: 1rem;
+    }
+
+    .rechts button {
+      background-color: transparent;
+      border-radius: 2em;
+      color: var(--color-textt);
+      border: 1px solid #321E1D;
+      padding: 1em 2.5em;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .buttons .active {
+      border: 3px solid #321E1D;
+    }
+
+    .buttons .soldout {
+      text-decoration: line-through;
+      opacity: 50%;
+    }
+
+    h1 {
+      font-family: 'shadows into light';
+    }
+
+    .rechts span {
+      color: green;
+    }
+.textscroll {
+  display: flex;
+  gap: 2rem;
+  background-color:#321E1D;
+  overflow: hidden;
+}
+
+  section:nth-of-type(4) ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    align-items: center;
+    flex-shrink: 0;
+    color: var(--color-text);
+    min-width: 100%;
+    animation: scroll 20s linear infinite;
+  }
+
+  section:nth-of-type(6) img {
+    height: auto;
+    width: 100%;
+  }
+
+  section:nth-of-type(2) {
+    display:flex;
+    justify-content: space-between;
+  }
+    
+  details {
+    border-top: 0.5px solid #321E1D;
+    padding: 1em;
+  }
+
+.rechts .cart {
+  background-color: #321E1D;
+  width: 50%;
+  color: #ffff;
+}
+
+.rechts .shop {
+  background-color: blueviolet;
+  color: #ffffff;
+  border: none;
+}
+
+.relatedproducts img {
+   height: auto;
+      width: 20em;
+      
+      justify-content: center;
+      align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 2em;
+  color: var(--color-textt);
+  border: 1px solid #321E1D;
+  padding: 1em 2.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  color: var(--color-textt);
+}
+
+
+@media (width < 768px){
+      .landing{ flex-direction: 
+      column; text-align: center; } 
+      .links{ aspect-ratio: auto; } }
+
+@keyframes scroll {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* 
+ bron:
+ https://www.youtube.com/watch?v=bd9MLIb3DCg&t=274s
+ https://www.freecodecamp.org/news/dot-symbol-bullet-point-in-html-unicode/
+ https://stackoverflow.com/questions/18813299/changing-image-on-hover-with-css-html
+ https://www.youtube.com/watch?v=uliYkHK3pKg
+ */
+
