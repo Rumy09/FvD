@@ -16,10 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Rumeysa
+  Rumeysa Demirci
 
   #### Je startniveau:
-  Rood
+  Blauw / Rood
 
   #### Je focus:
   Responsive, en als het lukt surface plane.
@@ -39,8 +39,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.officialtherose.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Merch pagina
+  <img src="readme-images/officialtherose.store_(iPhone SE) (1).png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
