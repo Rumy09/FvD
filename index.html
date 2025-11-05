@@ -1,106 +1,274 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>The Rose</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jouw naam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
-	<header>
-<p> ik kom hier later op terug :P </p>
-	</header>
-	<main>
-        <section>
-            <img src="images/P1_TheRoseWrld.webp">
-        </section>	
-        <section>
-            <h2> TOUR MD </h2>
-            <h2> WRLD </h2>
-            <h2> Rosebuds</h2>
-        </section>	
-        <section> <!-- carousel-->
-            <h2> WRLD </h2>
-            <div class="scroll-container">
-                <div class="scroll-content">
-                    <img class="item" src="images/merch_carrousel1.jpg">
-                    <img class="item" src="images/merch_carrousel2.jpg">
-                    <img class="item" src="images/merch_carrousel3.jpg">
-                    <img class="item" src="images/merch_carrousel4.jpg">
-                    <img class="item" src="images/merch_carrousel5.jpg">
-                    <img class="item" src="images/THEROSE_Jewel_ver1_mockup.jpg">
-                    <img class="item" src="images/THEROSE_Jewel_ver2_mockup.jpg">
-                </div>
-            </div>
+    <title>The Rose</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <h2> Rostar </h2>
-            <img class="item" src="images/rostar.jpg">
-            <h2> Album </h2>
-            <img class="item" src="images/albums.jpg">
-            <h2> Black Rose</h2>
-            <img class="item" src="images/black_rose.jpg">
-            
-        </section>
-        <section class="textscroll">
-            
-                <ul>
-                    <li> Rosebuds Pre-Order Start</li>
-                    <li> Official lightstick V2: Rostar now available</li>
-                    <li> Rosebuds Pre-Order Start</li>
-                    <li> Official lightstick V2: Rostar now available</li>
-                </ul>
-           
-        </section>
-  
-        <section> 
-            <h2> The Rose 2025 World Tour Once Upon A WRLD </h2>
-            <p> From city to city, let The Rose take you on a storybook tour that brings dreams to live through sound </p>
-        </section>
-        <section> <!-- Tour -->
-            <img src="images/ONCE_UPON_A_WRLD_TOUR.jpg" alt="tourposter">
-        </section>
-        <section>
-            <iframe width="100%" src="https://www.youtube.com/embed/6ufDVWeunA0?si=V6_M075erMkipdHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </section>
-         <section>
-            <h2> For the WRLD we share </h2>
-            <p> Together, for our WRLD,
-                We're reducing plastic and choosing sustainable packaging to help protecht the world we love, with you.
-            </p>
-         </section>
+  <body>
+    <header>
+      <img src="images/logo.jpg" alt="theroselogo" />
+      <button aria-hidden="true">
+        <i class="fa-solid fa-bars" style="color: #000000"></i>
+      </button>
+      <nav>
+        <button aria-hidden="true">
+          <i class="fa-solid fa-xmark" style="color: #000000"></i>
+        </button>
+        <ul>
+          <li><a href=""> Album </a></li>
+          <li><a href=""> Official MD </a></li>
+          <li><a href=""> Official website </a></li>
+          <li><a href=""> Support </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Section 1 -->
+      <section>
+        <img src="images/P1_TheRoseWrld.jpg" alt="therosewithfirework" />
+      </section>
+      <!-- Section 2 -->
+      <section>
+        <h2 id="tourmd" class="filter">TOUR MD</h2>
+        <h2 id="WRLD" class="filter">WRLD</h2>
+        <h2 id="Rosebuds" class="filter">Rosebuds</h2>
+        <ul>
+          <li>
+            <a href="sweater.html">
+              <img
+                src="images/tour_hoodie_black_1.jpg"
+                alt="blacktourhoodie front and back"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour Black
+                Hoodie
+              </h3>
+              <p>€46,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+			 
+                src="images/tourhoodiewhite_1.jpg"
+                alt="whitetourhoodie front and back"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour White
+                Hoodie
+              </h3>
+              <p>€46,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+			  
+			  
+                src="images/tourt-shirtswhite_1.jpg"
+                alt="whitetourshirt front and back"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour White Shirt
+              </h3>
+              <p>€28,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+			 
+			  
+                src="images/tourt-shirtblack_1.jpg"
+                alt="blacktourshirt front and back"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour Black Shirt
+              </h3>
+              <p>€28,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img 
+			  
+			  
+			  src="images/tourbandana.jpg" 
+			  alt="tour bandana" />
+              <h3>[Pre–Order][Global] The Rose 'Once Upon a WRLD' Bandana</h3>
+              <p>€28,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+			  
+			 
+                src="images/tourkeyringset.jpg"
+                alt="tour keyrings two pieces"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour Keyring Set
+              </h3>
+              <p>€28,95 EUR</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+			 
+			 
+                src="images/tourbadgeset.jpg"
+                alt="tour badge set three pieces"
+              />
+              <h3>
+                [Pre–Order][Global] The Rose 'Once Upon a WRLD' Tour Badge Set
+              </h3>
+              <p>€28,95 EUR</p>
+            </a>
+          </li>
+		 
+        </ul>
+      </section>
+      <!-- Section 3 -->
+      <section>
+        <h2>WRLD</h2>
+        <ul>
+          <li>
+            <img class="item" src="images/merch_carrousel1.jpg" alt="car1" />
+          </li>
+          <li>
+            <img class="item" src="images/merch_carrousel2.jpg" alt="car1" />
+          </li>
+          <li>
+            <img class="item" src="images/merch_carrousel3.jpg" alt="car1" />
+          </li>
+          <li>
+            <img class="item" src="images/merch_carrousel4.jpg" alt="car1" />
+          </li>
+          <li>
+            <img class="item" src="images/merch_carrousel5.jpg" alt="car1" />
+          </li>
+          <li>
+            <img
+              class="item"
+              src="images/THEROSE_Jewel_ver1_mockup.jpg"
+              alt="car1"
+            />
+          </li>
+          <li>
+            <img
+              class="item"
+              src="images/THEROSE_Jewel_ver2_mockup.jpg"
+              alt="car1"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- Section 4 -->
+      <section>
+        <ul>
+          <li>
+            <h2>Rostar</h2>
+            <img class="item" src="images/rostar.jpg" alt="car1" />
+            <a href="#"> Shop Now </a>
+          </li>
+          <li>
+            <h2>Album</h2>
+            <img class="item" src="images/albums.jpg" alt="car1" />
+            <a href="#"> Shop Now </a>
+          </li>
+          <li>
+            <h2>Black Rose</h2>
+            <img class="item" src="images/black_rose.jpg" alt="car1" />
+            <a href="#"> Shop Now </a>
+          </li>
+        </ul>
+      </section>
+      <!-- Section 5 -->
+      <section class="textscroll">
+        <ul>
+          <li>Rosebuds Pre-Order Start</li>
+          <li>Official lightstick V2: Rostar now available</li>
+          <li>Rosebuds Pre-Order Start</li>
+          <li>Official lightstick V2: Rostar now available</li>
+        </ul>
+        <ul>
+          <li>Rosebuds Pre-Order Start</li>
+          <li>Official lightstick V2: Rostar now available</li>
+          <li>Rosebuds Pre-Order Start</li>
+          <li>Official lightstick V2: Rostar now available</li>
+        </ul>
+      </section>
+      <!-- Section 6 -->
+      <section>
+        <h2>The Rose 2025 World Tour Once Upon A WRLD</h2>
+        <p>
+          From city to city, let The Rose take you on a storybook tour that
+          brings dreams to live through sound
+        </p>
+      </section>
+      <!-- Section 7 -->
+      <section>
+        <img src="images/ONCE_UPON_A_WRLD_TOUR.jpg" alt="tourposter" />
+      </section>
+      <!-- Section 8 -->
+      <section>
+        <iframe
+          src="https://www.youtube.com/embed/6ufDVWeunA0?si=V6_M075erMkipdHf"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- Section 9 -->
+      <section>
+        <h2>For the WRLD we share</h2>
+        <p>
+          Together, for our WRLD, We're reducing plastic and choosing
+          sustainable packaging to help protecht the world we love, with you.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="#">
+        <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-instagram" style="color: #ffffff"></i
+      ></a>
+      <a href="#">
+        <i class="fa-brands fa-youtube" style="color: #ffffff"></i
+      ></a>
+      <a href="#">
+        <i class="fa-brands fa-tiktok" style="color: #ffffff"></i
+      ></a>
+      <a href="#">
+        <i class="fa-brands fa-spotify" style="color: #ffffff"></i
+      ></a>
 
-	</main>
-
-	<footer>
-	  <details>
-            <summary> Netherlands (EURO) </summary>
-            <ul>
-                <li> Netherlands </li>
-                <li> Turkiye </li>
-                <li> America </li>
-            </ul>
-        </details>
-        <a href="#">  <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i> </a>
-        <a href="#">  <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-        <a href="#">  <i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
-        <a href="#">  <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></a>
-        <a href="#">  <i class="fa-brands fa-spotify" style="color: #ffffff;"></i></a>
-
-        <p> &#169; 2025- Official The Rose Shop Powered By Shopify </p>
-
-
-	</footer>
-
-	<script defer src="scripts/script.js"></script>
-</body>
-	
+      <p>&#169; 2025- Official The Rose Shop Powered By Shopify</p>
+    </footer>
+    <script defer src="scripts/script.js"></script>
+  </body>
 </html>

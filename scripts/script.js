@@ -1,24 +1,27 @@
-// JavaScript Document
-console.log("hi");
+var openButton = 
+document.querySelector("header > button");
 
-const plus = document.querySelector(".plus"),
-minus = document.querySelector(".minus"),
-number = document.querySelector(".number");
+openButton.onclick = openMenu;
 
-let a = 1;
+function openMenu() {
+    var deNav = document.querySelector("nav");
+    deNav.classList.add("toonMenu");
+}
 
-plus.addEventListener("click",()=>{
-    a++;
-    a = (a <10) ? "0" + a : a;
+var sluitButton = document.querySelector("nav button");
+sluitButton.onclick = sluitMenu;
 
-    number.innerText = a;
-});
+function sluitMenu(){
+    var deNav = document.querySelector("nav");
+    deNav.classList.remove("toonMenu");
+}
 
-minus.addEventListener("click", ()=>{
-    if(a > 1){
-        a--;
-          a = (a <10) ? "0" + a : a;
-
-    number.innerText = a;
+window.onkeydown = handleKeydown;
+function handleKeydown(event){
+    if (event.key == "Escape") {
+        var deNav = document.querySelector("nav");
+        deNav.classList.remove("toonMenu");
     }
-})
+}
+
+/*  Filter */
