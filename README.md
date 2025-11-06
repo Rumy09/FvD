@@ -233,7 +233,7 @@ Overwogen om te switchen naar surface plane daarvoor moest ik dingen bij verzinn
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/scherm1.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/scherm2.png" width="375px" alt="uitomst opdracht 2">
+  <img src="readme-images/scherm2.png" width="375px" alt="uitomst opdracht 2t">
 
 
   ### Dit ging goed/Heb ik geleerd: 
