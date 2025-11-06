@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="jouw naam" />
@@ -26,35 +26,52 @@
   <body>
     <header>
       <img src="images/logo.jpg" alt="theroselogo" />
-      <button aria-hidden="true">
-        <i class="fa-solid fa-bars" style="color: #000000"></i>
+
+      <button aria-hidden="true" class="menu">
+        <i class="fa-solid fa-bars"></i>
       </button>
       <nav>
-        <button aria-hidden="true">
-          <i class="fa-solid fa-xmark" style="color: #000000"></i>
+        <button class="sluit" aria-hidden="true">
+          <i class="fa-solid fa-xmark"></i>
         </button>
         <ul>
-          <li><a href=""> Album </a></li>
-          <li><a href=""> Official MD </a></li>
-          <li><a href=""> Official website </a></li>
-          <li><a href=""> Support </a></li>
+          <li><a href="#"> Album </a></li>
+          <li class="dropdown">
+            <a href="#">Official MD</a>
+            <ul class="dropdowncontent">
+              <li><a href="#">All MD</a></li>
+              <li><a href="#">Dual MD</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#"> Official website </a></li>
+          <li><a href="#"> Support </a></li>
         </ul>
       </nav>
+      <button class="shoppingcart" aria-label="shopping cart">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+      <button> <i class="fa-solid fa-user"></i> 
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
     </header>
     <main>
+      <h1 class="visualhidden">The rose merch pagina</h1>
       <!-- Section 1 -->
       <section>
         <img src="images/P1_TheRoseWrld.jpg" alt="therosewithfirework" />
       </section>
       <!-- Section 2 -->
       <section>
-        <h2 id="tourmd" class="filter">TOUR MD</h2>
-        <h2 id="WRLD" class="filter">WRLD</h2>
-        <h2 id="Rosebuds" class="filter">Rosebuds</h2>
+        <button>Tour MD</button>
+        <button class="notactive">WRLD</button>
+        <button class="notactive">Rosebuds</button>
         <ul>
           <li>
             <a href="sweater.html">
               <img
+                id="hoodie"
                 src="images/tour_hoodie_black_1.jpg"
                 alt="blacktourhoodie front and back"
               />
@@ -68,7 +85,7 @@
           <li>
             <a href="#">
               <img
-			 
+                id="hoodiewhite"
                 src="images/tourhoodiewhite_1.jpg"
                 alt="whitetourhoodie front and back"
               />
@@ -82,8 +99,6 @@
           <li>
             <a href="#">
               <img
-			  
-			  
                 src="images/tourt-shirtswhite_1.jpg"
                 alt="whitetourshirt front and back"
               />
@@ -96,8 +111,6 @@
           <li>
             <a href="#">
               <img
-			 
-			  
                 src="images/tourt-shirtblack_1.jpg"
                 alt="blacktourshirt front and back"
               />
@@ -109,11 +122,7 @@
           </li>
           <li>
             <a href="#">
-              <img 
-			  
-			  
-			  src="images/tourbandana.jpg" 
-			  alt="tour bandana" />
+              <img src="images/tourbandana.jpg" alt="tour bandana" />
               <h3>[Pre–Order][Global] The Rose 'Once Upon a WRLD' Bandana</h3>
               <p>€28,95 EUR</p>
             </a>
@@ -121,8 +130,6 @@
           <li>
             <a href="#">
               <img
-			  
-			 
                 src="images/tourkeyringset.jpg"
                 alt="tour keyrings two pieces"
               />
@@ -135,8 +142,6 @@
           <li>
             <a href="#">
               <img
-			 
-			 
                 src="images/tourbadgeset.jpg"
                 alt="tour badge set three pieces"
               />
@@ -146,7 +151,6 @@
               <p>€28,95 EUR</p>
             </a>
           </li>
-		 
         </ul>
       </section>
       <!-- Section 3 -->
@@ -154,33 +158,69 @@
         <h2>WRLD</h2>
         <ul>
           <li>
-            <img class="item" src="images/merch_carrousel1.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/merch_carrousel1.jpg"
+              alt="breathhoodie"
+            />
+            <h3>[EU/UK] The Rose WRLD Hoodie</h3>
+            <p>€45,95 EUR</p>
           </li>
           <li>
-            <img class="item" src="images/merch_carrousel2.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/merch_carrousel2.jpg"
+              alt="wrld shirt"
+            />
+            <h3>[EU/UK] The Rose WRLD T-Shirts</h3>
+            <p>€29,95 EUR</p>
           </li>
           <li>
-            <img class="item" src="images/merch_carrousel3.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/merch_carrousel3.jpg"
+              alt="pajama set blue square"
+            />
+            <h3>[EU/UK] The Rose WRLD Pajama Set</h3>
+            <p>€55,95 EUR</p>
           </li>
           <li>
-            <img class="item" src="images/merch_carrousel4.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/merch_carrousel4.jpg"
+              alt="red striped shirt"
+            />
+            <h3>[Pre-Order][EU/UK] The Rose WRLD PK Shirts</h3>
+            <p>€33,95 EUR</p>
           </li>
           <li>
-            <img class="item" src="images/merch_carrousel5.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/merch_carrousel5.jpg"
+              alt="wrld cap"
+            />
+            <h3>[Pre-Order][EU/UK] The Rose WRLD Cap</h3>
+            <p>€29,95 EUR</p>
           </li>
           <li>
             <img
               class="item"
               src="images/THEROSE_Jewel_ver1_mockup.jpg"
-              alt="car1"
+              alt="wrld jewel case album version 1"
             />
+            <h3>[EU/UK] The Rose 3rd Mini Album 'WRLD' Deluxe Album</h3>
+            <p>€22,95 EUR</p>
           </li>
           <li>
             <img
               class="item"
               src="images/THEROSE_Jewel_ver2_mockup.jpg"
-              alt="car1"
+              alt="wrld jewel case album version 2"
             />
+            <h3>
+              [EU/UK] The Rose 3rd Mini Album 'WRLD' Jewel Case Album (Ver. 1)
+            </h3>
+            <p>€12,95 EUR</p>
           </li>
         </ul>
       </section>
@@ -189,17 +229,25 @@
         <ul>
           <li>
             <h2>Rostar</h2>
-            <img class="item" src="images/rostar.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/rostar.jpg"
+              alt="lightstick the rose"
+            />
             <a href="#"> Shop Now </a>
           </li>
           <li>
             <h2>Album</h2>
-            <img class="item" src="images/albums.jpg" alt="car1" />
+            <img class="item" src="images/albums.jpg" alt="wrld album" />
             <a href="#"> Shop Now </a>
           </li>
           <li>
             <h2>Black Rose</h2>
-            <img class="item" src="images/black_rose.jpg" alt="car1" />
+            <img
+              class="item"
+              src="images/black_rose.jpg"
+              alt="black rose perfume"
+            />
             <a href="#"> Shop Now </a>
           </li>
         </ul>
@@ -246,7 +294,7 @@
         <h2>For the WRLD we share</h2>
         <p>
           Together, for our WRLD, We're reducing plastic and choosing
-          sustainable packaging to help protecht the world we love, with you.
+          sustainable packaging to help protect the world we love, with you.
         </p>
       </section>
     </main>
