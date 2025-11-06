@@ -125,43 +125,28 @@ Alle buttons en a elementen worden juist benoemt samen met de linkjes, maar hebb
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  In de eerste week liep ik erg achter. Hoewel ik een beetje kan coderen werkte niks mee waardoor ik dus vast liep.
+  In de eerste week liep ik erg achter. Hoewel ik een beetje kan coderen werkte niks mee waardoor ik dus vast liep en vrij weinig had om te laten zien.
 
 
   ### Agenda voor meeting
- nvt
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Feedback vragen over mn breakdown schets
+- Vragen hoe ik specifieke dingen op de paginas het beste kan aanpakken.
 
 
   ### Verslag van meeting
   Doordat ik achterliep heb ik niet veel kunnen laten zien, wel kreeg ik feedback op mn breakdown schets en kreeg ik onder andere dit feedback: Header main footer toevoegen
-
 H1 ipv Buttons
-
-A 
+A (link)
 - Img
 - H2
-
 Input type bij merch pagina
-
 Formulier info 
-
 Summery details bij uitklap 
-
 Uitgebreid schrijven van toegankelijkheid 
-
 Structuur van breakdown schets
-
 Html dialog 
 Bij pop up = button
-
 Elke section begint met H2, anders visual hidden h toevoegen
-
 Carrousel = Li Ul
 </details>
 
@@ -175,22 +160,16 @@ Carrousel = Li Ul
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Bij de 2e voortgangsgesprek was ik verkouden en was ik er niet bij, wel heb ik op een later moment mn voortgang gesprek gehouden.
- Ik heb mn toegankelijkheids test uitgeschreven en de feedback van breakdown schets aangepast. Ik begon met het opzetten van de pagina's, content en basic styling.
+  Bij de 2e voortgangsgesprek was ik verkouden en was ik er niet bij, wel heb ik op een later moment mn voortgang gesprek gehouden (3e gesprek).
+ Ik heb mn toegankelijkheids test uitgeschreven en de feedback van breakdown schets verwerkt. Ik begon met het opzetten van de pagina's, content en basic styling.
 
 
   ### Agenda voor meeting
-  nvt
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+- Vragen of ik correct bezig ben
+- Code laten checken
 
   ### Verslag van meeting
-   M'n hoodie pagina was responsive alleen wel desktop first dus heb ik samen met de docent gekeken naar hoe ik het kon omdraaien en we hebben gekeken of ik code anders moest schrijven bijv de carrousel die geen ul was maar divjes.
+   M'n hoodie pagina was responsive alleen wel desktop first dus heb ik samen met de docent gekeken naar hoe ik het kon omdraaien en we hebben gekeken of ik code anders moest schrijven bijv de caroussel die geen ul was maar divjes. Ik moest ook alt toevoegen en een h1 hidden omdat die beide d'r nog niet instonden.
 
 </details>
 
@@ -204,7 +183,7 @@ Carrousel = Li Ul
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Light and dark modus werkt, ik kwam erachter dat sommige elementen nog een kleur code hadden in plaats van een var dus die heb ik moeten aanpassen zodat dat meewerkt met de light dark modus. Ik moet nog een oplossing vinden voor elementen die al een donker achtergrond hadden maar die wat meer onderscheidt moeten hebben. Screenreader leest alles voor ook de visual hiddden h1, de alts waren nog hetzelfde dus heb dat moeten veranderen maar alles werd voorgelezen, in de eerste instantie lees hij de hamburger menu niet voor maar toen ik de screenreader aan en uitzette las ie het wel voor. Video speelt niet meer automatisch af gebruiker moet het zelf aanklikken. 
 
 </details>
 
@@ -218,11 +197,11 @@ Carrousel = Li Ul
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
- 3e gesprek had ik de main pagina mobile first zonder styling en niet responsive. 
+ 3e gesprek (aka eindgesprek) had ik de main pagina mobile first zonder styling en niet responsive d'r zijn problemen met het responsive pagina van sweater afbeelding namelijk afbeelding verdwijnt. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  nvt
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -233,20 +212,22 @@ Carrousel = Li Ul
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - 5 dingen vinden voor surface plane (scroll animatie, dom manipulatie)
+  - Grid voor producten,
+  - UL LI voor carousel,
+  - Images uploaden naar GitHub
+Overwogen om te switchen naar surface plane daarvoor moest ik dingen bij verzinnen om te doen. 
 </details>
 
 
 
 
 
-## Eindgesprek (week 5)
-
+## Eindgesprek (week 5) aka Extra feedbackmoment
+<details>
+  Ik liep nog steeds achter dus ik heb vrij weinig laten zien, weer terug geswitchd naar responsive
+</details>
+## Eindgesprek (week 5) eindresultaat
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
@@ -279,8 +260,14 @@ Carrousel = Li Ul
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+ 1  https://www.youtube.com/watch?v=bd9MLIb3DCg&t=274s
+ 2  https://www.freecodecamp.org/news/dot-symbol-bullet-point-in-html-unicode/
+ 3  https://www.youtube.com/watch?v=uliYkHK3pKg 
+ 4  ChatGPT image change on hover: prompt: "hoe doe ik image change on hover met javascript"
+ 5  Carrousel google: " hoe maak je een simpele scroll carrousel"
+ 6  Icons: fontawesome
+ 7  https://www.a11yproject.com/posts/how-to-hide-content/
+
+
 
 </details>
